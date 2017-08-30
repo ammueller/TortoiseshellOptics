@@ -86,3 +86,31 @@ nav span a {
   font-weight: bold;
   line-height: 1.2;
 }
+
+/*-- services --*/
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.servitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.servitem img {
+  width: 5rem;
+  padding-bottom: 1rem;
+}
+
+#paper {
+  width: 3.5rem;
+}
