@@ -149,3 +149,24 @@ nav span a {
 #appt {
   padding-left: 5%;
 }
+
+/*-- footer --*/
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.foot {
+  display: flex;
+  width: 960px;
+  margin-top: 5rem;
+  background-color: azure;
+  height: auto;
+  align-items: center;
+}
+
+.foot img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
