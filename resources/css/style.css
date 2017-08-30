@@ -114,3 +114,38 @@ nav span a {
 #paper {
   width: 3.5rem;
 }
+
+/*-- information --*/
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  width: auto;
+}
+
+.infoitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 35%;
+}
+
+
+.infoitem h1 {
+  color: white;
+  font-weight: bold;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-size: 1rem;
+}
+
+.infoitem span {
+  padding-top: 1rem;
+}
+
+#appt {
+  padding-left: 5%;
+}
